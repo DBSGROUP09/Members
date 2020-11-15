@@ -30,50 +30,6 @@ body {
 }
 
 .card {
-  background-color: #0C1121;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  background-color: #000415;
-}
-  
- html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
   background-color: #000415;
   box-shadow: 0 8px 6px -6px black;
   border: 0.1px solid #565656;
@@ -110,76 +66,6 @@ body {
 
 .button:hover {
   background-color: yello;
-}
-</style>
-</head>
-<body>
-
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="https://1.bp.blogspot.com/-0u_YQzjGEMs/X1nsOC2jPiI/AAAAAAAAA3Q/oUZhDrBzBhM24JznrSAd1UiVf4lxBTODQCLcBGAsYHQ/w625-h351/Principal%2B%25281%2529.png" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Principal</h2>
-        <p class="title">Principal</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p> <a class="button"  href="tel:9402042590">Contact</a></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="https://1.bp.blogspot.com/-ZzR7hyACZwk/X1n5VbTLqyI/AAAAAAAAA3o/H16XAMdbEhsSz88v2C1dAMvpJzr8SPl4ACLcBGAsYHQ/s320/Copy%2Bof%2BUntitled.png" alt="Mika" style="width:100%">
-      <div class="container">
-        <h2>Kabeer Sankar Das </h2>
-        <p class="title">Maths Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-       <p> <a class="button"  href="tel:9401150481">Contact</a></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="https://1.bp.blogspot.com/-OQNHN_Me8kw/X4hdjuZEkFI/AAAAAAAAAE0/wBpN8t4GQjUKsJAO3W-cWOy1HtgBtsdvwCNcBGAsYHQ/s320/PRINCIPAL.png" alt="John" style="width:100%">
-      <div class="container">
-        <h2>Samsun Naher </h2>
-        <p class="title">Class Teacher Of Class 7 (A) </p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p> <a class="button"  href="tel:9401284200">Contact</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-
-
-</body>
-</html>
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }
 </style>
 </head>
